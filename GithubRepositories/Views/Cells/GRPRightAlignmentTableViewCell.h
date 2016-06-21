@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  GRPRightAlignmentTableViewCell.h
 //  GithubRepositories
 //
 //  Created by Jakmir on 6/21/16.
@@ -7,9 +7,8 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "GRPTableViewCell.h"
 
-@interface ViewController : UIViewController
-
+@interface GRPRightAlignmentTableViewCell : GRPTableViewCell
 
 @end
-

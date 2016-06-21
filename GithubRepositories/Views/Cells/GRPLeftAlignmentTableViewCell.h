@@ -1,5 +1,5 @@
 //
-//  AppDelegate.h
+//  GRPLeftAlignmentTableViewCell.h
 //  GithubRepositories
 //
 //  Created by Jakmir on 6/21/16.
@@ -7,11 +7,8 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "GRPTableViewCell.h"
 
-@interface AppDelegate : UIResponder <UIApplicationDelegate>
-
-@property (strong, nonatomic) UIWindow *window;
-
+@interface GRPLeftAlignmentTableViewCell : GRPTableViewCell
 
 @end
-

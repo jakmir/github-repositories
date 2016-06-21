@@ -6,17 +6,25 @@
 //  Copyright © 2016 Jakmir. All rights reserved.
 //
 
-#import "AppDelegate.h"
+#import "GRPAppDelegate.h"
+#import "GRPTableViewController.h"
 
-@interface AppDelegate ()
+@interface GRPAppDelegate ()
 
 @end
 
-@implementation AppDelegate
+@implementation GRPAppDelegate
 
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
-    // Override point for customization after application launch.
+    self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
+    self.window.backgroundColor = [UIColor whiteColor];
+    
+    GRPTableViewController *tableViewController = [[GRPTableViewController alloc] initWithNibName:@"GRPTableViewController" bundle:nil];
+    UINavigationController *navController = [[UINavigationController alloc] initWithRootViewController:tableViewController];
+    [self.window setRootViewController:navController];
+    [self.window makeKeyAndVisible];
+    
     return YES;
 }
 
