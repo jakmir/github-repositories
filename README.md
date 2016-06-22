@@ -14,7 +14,7 @@ Clone this repository or get a zip
 
 ## Installing dependencies
 Navigate to root directory of this project.
-Then, run the following command to install dependencies (AFNetworking is mandatory for this project)
+Then, run the following command to install dependencies (AFNetworking is mandatory for this project, it will be retrieved for you)
 
 ```bash
 $ pod install
