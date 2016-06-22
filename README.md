@@ -25,6 +25,8 @@ Beware, it should be workspace file with .xcworkspace extension, not the .xcodep
 
 ## Build and run with Xcode
 Minimal supported iOS is 8.0
+
 This app is universal and applicable for both iPad and iPhone.
+
 Portrait and landscape screen orientations are both supported.
 
